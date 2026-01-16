@@ -4,11 +4,10 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Source Sans 3", sans-serif;
 }
 
 
 @theme {
-    --font-cinzel: "Cinzel", sans-serif ;
+    --font-cinzel: "Cinzel", serif ;
     --font-source-sans-3: "Source Sans 3", sans-serif;
 }
