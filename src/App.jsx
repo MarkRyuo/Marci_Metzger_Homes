@@ -8,7 +8,7 @@ function App() {
     <>
       <div className='navbar-section'>
         <header>
-          <nav className='border h-[10vh] sm:h-[12vh] flex justify-center items-center'>
+          <nav className='h-[10vh] sm:h-[12vh] flex justify-center items-center'>
               <Navbar />
           </nav>
         </header>
