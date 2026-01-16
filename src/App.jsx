@@ -5,8 +5,10 @@ function App() {
 
   return (
     <>
-      <div>
-          <Navbar />
+      <div className='navbar-section'>
+        <div className='border'>
+            <Navbar />
+        </div>
       </div>
     </>
   )

@@ -6,8 +6,10 @@ export default function Navbar() {
 
     return(
 
-        <div className="navbar-container">
-            <img src={logo} alt="" srcset="" />
+        <div className="flex justify-center">
+            <div className="w-50 sm:w-3xs">
+                <img src={logo} alt="" srcset="" className="w-auto"/>
+            </div>
         </div>
     )
 }
