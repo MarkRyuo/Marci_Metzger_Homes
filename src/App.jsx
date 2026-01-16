@@ -1,4 +1,5 @@
 import './App.css'
+import Herosection from './components/Herosection.jsx'
 import Navbar from './components/navbar.jsx'
 
 function App() {
@@ -6,9 +7,20 @@ function App() {
   return (
     <>
       <div className='navbar-section'>
-        <div className='border'>
-            <Navbar />
-        </div>
+        <header>
+          <nav className='border h-[10vh] sm:h-[12vh] flex justify-center items-center'>
+              <Navbar />
+          </nav>
+        </header>
+
+        <main>
+          <section className='hero-section'>
+            <div>
+              <Herosection />
+            </div>
+          </section>
+        </main>
+
       </div>
     </>
   )
