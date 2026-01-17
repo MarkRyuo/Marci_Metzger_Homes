@@ -1,5 +1,6 @@
 import heroimg from "../assets/image/Image02.webp";
-import PropertySearch from "../pages/PropertySearch";
+import Dropdown from "../components/Dropdown"
+
 
 export default function Herosection() {
   return (
