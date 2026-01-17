@@ -1,4 +1,5 @@
 import heroimg from "../assets/image/Image02.webp";
+import PropertySearch from "../pages/PropertySearch";
 
 export default function Herosection() {
   return (
@@ -15,7 +16,7 @@ export default function Herosection() {
         </div>
 
         <div>
-
+            <PropertySearch />
         </div>
       </div>
     </div>
